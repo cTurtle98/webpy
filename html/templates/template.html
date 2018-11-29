@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- cTurtle98 Website Index file -->
+<html>
+    <head>
+        <title>{{page_title}}</title>
+        {{head}}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67214315-6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-67214315-6');
+        </script>
+        <!-- /Google Analytics -->
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        
+        <!-- JQUERY STUFFS -->
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <a id="header-title">cTurtle98</a>
+            <a id="header-tagline">Ciaran Farley</a>
+        </div>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ham/">HAM</a></li>
+                    <!--<li><a href="internet-speed-log/">Internet Speed Log</a></li>-->
+                </ul>
+            </nav>
+        </div>
+        <div id="content">
+            <a class="title">{{title}}</a><br>
+            <a class="subtitle">{{subtitle}}</a><br>
+            <br>
+            <!-- INCLUDE BODY FOR EACH PAGE -->
+            <a>{{content}}</a>
+        </div>
+    </body>
+</html>
