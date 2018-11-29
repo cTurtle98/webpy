@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -d --name webpy -p 89:5000 webpy:latest
