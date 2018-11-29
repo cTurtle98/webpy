@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker stop webpy
+
 docker rm $(docker ps -a | grep webpy | cut -f 1 -d " ")
 
-docker run -d --name webpy -p 8088:8088 webpy:latest
+docker run -d --name webpy -p 8088:8088 -v html:/app/html:ro webpy:latest
