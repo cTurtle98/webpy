@@ -18,14 +18,6 @@ def index() :
 		subtitle = "The projects of Ciaran farley",
 		content = """webcome to my projects, look around, maybe you will find something interesting"""
 		)
-"""
-@app.route('/main.css')
-def main_css():
-	f = open('include/main.css')
-	css = f.read()
-	f.close()
-	return css
-"""
 
 
 if __name__ == '__main__' :
