@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker rm ${docker ps -a | grep webpy:latest | cut -f 1 -d " "}
+docker rm $(docker ps -a | grep webpy:latest | cut -f 1 -d " ")
 
 docker run -d --name webpy -p 8088:8088 webpy:latest
