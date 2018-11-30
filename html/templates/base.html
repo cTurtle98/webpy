@@ -2,8 +2,8 @@
 <!-- cTurtle98 Website Index file -->
 <html>
     <head>
-        <title>{{page_title}}</title>
-        {{head}}
+	{% block head %}
+        <title>{% block page_title %}{% endblock %} - cTurtle98.com</title>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67214315-6"></script>
         <script>
@@ -21,7 +21,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-        
+        {% endblock %}
     </head>
     <body>
         <div id="header">
@@ -38,11 +38,12 @@
             </nav>
         </div>
         <div id="content">
-            <a class="title">{{title}}</a><br>
-            <a class="subtitle">{{subtitle}}</a><br>
+	    {% block content %}
+            <a class="title">{% block title %}{% endblock %}</a><br>
+            <a class="subtitle">{% block subtitle %}{% endblock %}</a><br>
             <br>
             <!-- INCLUDE BODY FOR EACH PAGE -->
-            <a>{{content}}</a>
+            {% endblock %}
         </div>
     </body>
 </html>

@@ -11,14 +11,11 @@ app = Flask(__name__, template_folder='html/templates/', static_folder = 'html/s
 
 @app.route('/')
 def index() :
-	return render_template('template.html',
-		page_title = "cTurtle98.com",
-		head = "",
-		title = "cTurtle98.com",
-		subtitle = "The projects of Ciaran farley",
-		content = """webcome to my projects, look around, maybe you will find something interesting"""
-		)
+	return render_template('home.html',)
 
+@app.route('/ham/')
+def ham() :
+	return render_template('ham.html')
 
 if __name__ == '__main__' :
     app.run(host='::', port=8088)

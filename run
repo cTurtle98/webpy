@@ -6,4 +6,4 @@
 
 #docker run -d --name webpy -p 8088:8088 -v html:/app/html:ro webpy:latest
 
-docker-compose run webpy &
+docker-compose up -d webpy
