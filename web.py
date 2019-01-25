@@ -18,4 +18,4 @@ def ham() :
 	return render_template('ham.html')
 
 if __name__ == '__main__' :
-    app.run(host='::', port=8088)
+    app.run(host='::', port=80)
