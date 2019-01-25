@@ -4,6 +4,6 @@ docker stop webpy
 
 docker rm $(docker ps -a | grep webpy | cut -f 1 -d " ") 2> /dev/null
 
-docker run -d --name webpy --restart unless-stopped -p 8088:8088 -v html:/app/html:ro webpy:latest
+docker run -d --name webpy --restart unless-stopped -p 8088:80 -v html:/app/html:ro webpy:latest
 
 #docker-compose up -d webpy
