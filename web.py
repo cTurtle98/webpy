@@ -21,7 +21,10 @@ def ham() :
 
   try:
     f = open("html/data/ham/my_equipment.json")
-    my_equipment = json.load(f)
+    try:
+      my_equipment = json.load(f)
+    except:
+      return("failed at json load")
     f.close
   except:
     return("couldn't find my_equipment.json")
