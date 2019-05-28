@@ -7,9 +7,7 @@ import json
 from flask import Flask, render_template, send_from_directory
 
 
-
 app = Flask(__name__, template_folder='html/templates/', static_folder = 'html/static')
-
 
 
 @app.route('/')
@@ -31,4 +29,4 @@ def ham() :
   return render_template('ham.jinja2', my_equipment)
 
 if __name__ == '__main__' :
-    app.run(host='::', port=80, DEBUG=True)
+    app.run(host='::', port=80, debug=True)
