@@ -1,7 +1,9 @@
 FROM alpine:latest
 MAINTAINER "Ciaran admin@cturtle98.com"
 
-RUN apt add --update python3 python3-pip
+RUN apk update
+RUN apk upgrade
+RUN apk add python3 python3-pip
 RUN pip3 install flask
 COPY web.py /app/web.py
 WORKDIR /app
