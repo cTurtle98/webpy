@@ -20,7 +20,7 @@ def ham() :
   my_equipment = {}
 
   try:
-    f = open("data/ham/my_equipment.json")
+    f = open("html/data/ham/my_equipment.json")
     my_equipment = json.load(f)
     f.close
   except:
