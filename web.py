@@ -26,7 +26,7 @@ def ham() :
   except:
     print("couldn't find my_equipment.json")
 
-  return render_template('ham.jinja2', my_equipment)
+  return render_template('ham.jinja2', my_equipment=my_equipment)
 
 if __name__ == '__main__' :
     app.run(host='::', port=80, debug=True)
