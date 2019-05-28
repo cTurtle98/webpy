@@ -21,13 +21,14 @@ def ham() :
 
   try:
     f = open("html/data/ham/my_equipment.json")
-    try:
-      my_equipment = json.load(f)
-    except:
-      return("failed at json load")
-    f.close
   except:
     return("couldn't find my_equipment.json")
+
+  try:
+    my_equipment = json.load(f)
+    f.close
+  except:
+    return("json load fail")
 
   return render_template('ham.jinja2', my_equipment=my_equipment)
 
