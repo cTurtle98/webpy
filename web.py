@@ -20,11 +20,11 @@ def ham() :
   my_equipment = {}
 
   try:
-    f = open("/data/ham/my_equipment.json")
+    f = open("data/ham/my_equipment.json")
     my_equipment = json.load(f)
     f.close
   except:
-    print("couldn't find my_equipment.json")
+    return("couldn't find my_equipment.json")
 
   return render_template('ham.jinja2', my_equipment=my_equipment)
 
