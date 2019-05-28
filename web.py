@@ -31,4 +31,4 @@ def ham() :
 	return render_template('ham.jinja2', my_equipment)
 
 if __name__ == '__main__' :
-    app.run(host='::', port=80)
+    app.run(host='::', port=80, DEBUG=True)
