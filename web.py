@@ -30,8 +30,6 @@ def ham() :
   except:
     return("couldn't load data")
 
-    
-
   return render_template('ham.jinja2', my_equipment=my_equipment, equipment_wishlist=equipment_wishlist)
 
 if __name__ == '__main__' :
