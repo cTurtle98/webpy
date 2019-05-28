@@ -18,19 +18,21 @@ def index() :
 def ham() :
 
   my_equipment = {}
+  equipment_wishlist = {}
 
   try:
     f = open("html/data/ham/my_equipment.json")
-  except:
-    return("couldn't find my_equipment.json")
-
-  try:
     my_equipment = json.load(f)
     f.close
+    f = open("html/data/ham/equipment_wishlist.json")
+    equipment_wishlist = json.load(f)
+    f.close
   except:
-    return("json load fail")
+    return("couldn't load data")
 
-  return render_template('ham.jinja2', my_equipment=my_equipment)
+    
+
+  return render_template('ham.jinja2', my_equipment=my_equipment, equipment_wishlist=equipment_wishlist)
 
 if __name__ == '__main__' :
     app.run(host='::', port=80, debug=False)
