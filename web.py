@@ -39,10 +39,12 @@ def wishlist() :
 
   try:
     f = open("html/data/wishlist.json")
-    wishlist = json.load(f)
-    f.close
+    
   except:
     return("couldn't load data")
+
+  wishlist = json.load(f)
+  f.close
 
   return render_template('wishlist.jinja2', wishlist=wishlist)
 
