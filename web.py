@@ -18,11 +18,11 @@ def index() :
 def ham() :
 
   my_equipment = {}
-  equipment_wishlist = {}
-
   f = open("html/data/ham/my_equipment.json")
   my_equipment = json.load(f)
   f.close
+  
+  equipment_wishlist = {}
   f = open("html/data/ham/equipment_wishlist.json")
   equipment_wishlist = json.load(f)
   f.close
