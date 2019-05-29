@@ -32,5 +32,19 @@ def ham() :
 
   return render_template('ham.jinja2', my_equipment=my_equipment, equipment_wishlist=equipment_wishlist)
 
+@app.route('/wishlist/')
+def wishlist() :
+
+  wishlist = {}
+
+  try:
+    f = open("html/data/wishlist.json")
+    wishlist = json.load(f)
+    f.close
+  except:
+    return("couldn't load data")
+
+  return render_template('wishlist.jinja2', wishlist=wishlist)
+
 if __name__ == '__main__' :
     app.run(host='::', port=80, debug=False)
