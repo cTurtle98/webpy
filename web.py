@@ -47,4 +47,4 @@ def wishlist() :
   return render_template('wishlist.jinja2', wishlist=wishlist)
 
 if __name__ == '__main__' :
-    app.run(host='::', port=80, debug=False)
+    app.run(host='::', port=80, debug=True)
