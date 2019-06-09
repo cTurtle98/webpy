@@ -4,7 +4,8 @@ webapp to host www.cturtle98.com
 """
 import os
 import json
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, request
+from datetime import datetime
 
 
 app = Flask(__name__, template_folder='html/templates/', static_folder = 'html/static')
@@ -13,6 +14,23 @@ app = Flask(__name__, template_folder='html/templates/', static_folder = 'html/s
 @app.route('/')
 def index() :
 	return render_template('home.jinja2',)
+
+@app.route('/redirect/', methods=['GET'])
+def redirect():
+  url = request.args.get('URL')
+  linkedfrom = request.args.get('linkedfrom')
+
+  f=open("html/data/redirect.csv", "a+")
+  f.write(datetime)
+  f.write(",")
+  f.write(url)
+  f.write(",")
+  f.write(linkedfrom)
+  f.write("\n")
+  f.close()
+
+  return redirect(url)
+
 
 @app.route('/ham/')
 def ham() :
