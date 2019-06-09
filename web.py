@@ -21,7 +21,7 @@ def redirect():
   linkedfrom = request.args.get('linkedfrom')
 
   f=open("html/data/redirect.csv", "a+")
-  f.write(datetime.datetime)
+  f.write(datetime.datetime.today())
   f.write(",")
   f.write(url)
   f.write(",")
