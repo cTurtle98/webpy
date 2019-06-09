@@ -24,7 +24,7 @@ def redirectpage():
   f=open("html/data/redirect.csv", "a+")
   f.write(current_time)
   f.write(",")
-  f.write(request.environ.get('HTTP_X_REAL_IP', request.remote_addr)  )
+  f.write(flask.request.environ.get('HTTP_X_REAL_IP', flask.request.remote_addr)  )
   f.write(",")
   f.write(url)
   f.write(",")
