@@ -40,7 +40,7 @@ def wishlist() :
   return render_template('wishlist.jinja2', wishlist=wishlist)
 
 @app.route('/21bday/')
-def 21bday():
+def twentyonebday() :
   return render_template('21bday.jinja2')
 
 if __name__ == '__main__' :
