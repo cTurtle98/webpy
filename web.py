@@ -18,14 +18,15 @@ def index() :
 @app.route('/redirect/', methods=['GET'])
 def redirect():
   url = request.args.get('URL')
-  linkedfrom = request.args.get('linkedfrom')
+  linked_from = request.args.get('linkedfrom')
+  current_time = str(datetime.now())
 
   f=open("html/data/redirect.csv", "a+")
-  f.write(str(datetime.now()))
+  f.write(current_time)
   f.write(",")
   f.write(url)
   f.write(",")
-  f.write(linkedfrom)
+  f.write(linked_from)
   f.write("\n")
   f.close()
 
