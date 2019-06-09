@@ -5,7 +5,7 @@ webapp to host www.cturtle98.com
 import os
 import json
 from flask import Flask, render_template, send_from_directory, request
-from datetime import datetime
+import datetime
 
 
 app = Flask(__name__, template_folder='html/templates/', static_folder = 'html/static')
@@ -21,7 +21,7 @@ def redirect():
   linkedfrom = request.args.get('linkedfrom')
 
   f=open("html/data/redirect.csv", "a+")
-  f.write(datetime)
+  f.write(datetime.datetime)
   f.write(",")
   f.write(url)
   f.write(",")
