@@ -16,7 +16,7 @@ def index() :
 	return render_template('home.jinja2',)
 
 @app.route('/redirect/', methods=['GET'])
-def redirect():
+def redirectpage():
   url = request.args.get('URL')
   linked_from = request.args.get('linkedfrom')
   current_time = str(datetime.now())
