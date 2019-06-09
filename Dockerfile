@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER "Ciaran admin@cturtle98.com"
 
-RUN apk update &&\
- apk upgrade
+#RUN apk update &&\
+# apk upgrade
 
 RUN apk add python3 py-pip
 
