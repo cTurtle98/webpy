@@ -1,0 +1,34 @@
+{% extends "base.jinja2" %}
+{% block page_title %}WishList{% endblock %}
+{% block head %}
+        {{ super() }}
+{% endblock %}
+{% block title %}Wishlist{% endblock %}
+{% block subtitle %}things I wish to buy for myself at some point{% endblock %}
+{% block content %}
+        {{ super() }}
+
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Image(s)</th>
+            <th>Links To Buy</th>
+            <th>Want/10</th>
+            <th>Comments</th>
+        </tr>
+        {% for key in wishlist.keys() %}
+        <tr>
+            <td><b>{{ key }}</b></td>
+            <td>{% for image in wishlist[key]["images"].keys() %}
+            <img src="{{ url_for('static', filename=wishlist[key]["images"][image]) }}" width="250px">
+            {% endfor %}</td>
+            <td>{% for merchant in wishlist[key]["buylinks"].keys() %}
+            <a href="/redirect/?URL={{ wishlist[key]["buylinks"][merchant]["link"] }}&linkedfrom=wishlist" target="_blank">{{ merchant}} </a>(~${{ wishlist[key]["buylinks"][merchant]["price"] }})
+            <br>{% endfor %}</td>
+            <td><a> {{ wishlist[key]["want"] }} </a></td>
+            <td> {{ wishlist[key]["comments"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,81 @@
+{% extends "base.jinja2" %}
+{% block page_title %}HAM{% endblock %}
+{% block head %}
+        {{ super() }}
+{% endblock %}
+{% block title %}HAM - Amateur Radio{% endblock %}
+{% block subtitle %}KM6NHG{% endblock %}
+{% block content %}
+        {{ super() }}
+<a href="http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=3966218" target="_blank">FCC ULS</a>
+<br>
+<a href="APRS/">Track me on APRS</a>
+<br><br>
+<div id="dates">
+    <a class="subtitle">Dates</a>
+    <table>
+        <tr>
+            <th>Call Sign Issue</th>
+            <th>Technician Test</th>
+            <th>General Test</th>
+            <th>Extra Test</th>
+        </tr>
+        <tr>
+            <td>October 19th 2017</td>
+            <td>October 10th 2017</td>
+            <td>To Be Determined</td>
+            <td>To Be Determined</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id="equipment">
+    <a class="subtitle">My Equipment</a><br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Image(s)</th>
+            <th>Links To Buy</th>
+            <th>Comments</th>
+        </tr>
+        {% for key in my_equipment.keys() %}
+        <tr>
+            <td><b>{{ key }}</b></td>
+            {% for image in my_equipment[key]["images"].keys() %}
+            <td><img src="{{ url_for('static', filename=my_equipment[key]["images"][image]) }}" width="250px"></td>
+            {% endfor %}
+            {% for merchant in my_equipment[key]["buylinks"].keys() %}
+            <td><a href="{{ my_equipment[key]["buylinks"][merchant]["link"] }}" target="_blank">{{ merchant}} </a>(~${{ my_equipment[key]["buylinks"][merchant]["price"] }})</td>
+            {% endfor %}
+            <td> {{ my_equipment[key]["comments"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+<br><br>
+<div id="wishlist">
+    <a class="subtitle">Equipment Wishlist</a>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Image(s)</th>
+            <th>Links To Buy</th>
+            <th>Want/10</th>
+            <th>Comments</th>
+        </tr>
+        {% for key in equipment_wishlist.keys() %}
+        <tr>
+            <td><b>{{ key }}</b></td>
+            {% for image in equipment_wishlist[key]["images"].keys() %}
+            <td><img src="{{ url_for('static', filename=equipment_wishlist[key]["images"][image]) }}" width="250px"></td>
+            {% endfor %}
+            {% for merchant in equipment_wishlist[key]["buylinks"].keys() %}
+            <td><a href="{{ equipment_wishlist[key]["buylinks"][merchant]["link"] }}" target="_blank">{{ merchant}} </a>(~${{ equipment_wishlist[key]["buylinks"][merchant]["price"] }})</td>
+            {% endfor %}
+            <td><a> {{ equipment_wishlist["want"] }} </a></td>
+            <td> {{ equipment_wishlist[key]["comments"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
