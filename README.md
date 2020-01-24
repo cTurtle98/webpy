@@ -1,4 +1,2 @@
 # webpy
-python flask based web server for cturtle98.com
-
-# NO LONGER IN USE
+apache wsgi python webserver for cturtle98.com
