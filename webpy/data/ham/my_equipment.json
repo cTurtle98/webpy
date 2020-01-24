@@ -1,0 +1,86 @@
+{
+  "ARRL Ham Radio License manual": {
+    "images": {
+      "pic": "ham/manual.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "http://a.co/9pk05gC",
+        "price": "23"
+      }
+    },
+    "comments": "I used the third edition ARRL manual to get my license"
+  },
+  "BaoFeng BF-F8HP<br>Dual Band<br>Two-Way Radio": {
+    "images": {
+      "pic": "ham/bf-f8hp.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://amzn.com/B00MAULSOK",
+        "price": "63"
+      }
+    },
+    "comments": "my main handheald radio"
+  },
+  "Radioddity RD 771 15,6 Inch Whip VHF/UHF": {
+    "images": {
+      "pic": "ham/rd771.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/gp/product/B01GCLAFI2",
+        "price": "10"
+      }
+    },
+    "comments": "whip antenna for my main handheald radio"
+  },
+  "Diamond K412S Antenna Mount": {
+    "images": {
+      "pic": "ham/K412S.jpg"
+    },
+    "buylinks": {
+      "eBay": {
+        "link": "https://www.ebay.com/itm/372228667134",
+        "price": "69"
+      }
+    },
+    "comments": "antenna mount that clamps onto my trunk"
+  },
+  "Diamond NR770HB Dualband Mobile Antenna": {
+    "images": {
+      "pic": "ham/nr770hb.jpg"
+    },
+    "buylinks": {
+      "eBay": {
+        "link": "https://www.ebay.com/itm/222850603371",
+        "price": "59.95"
+      }
+    },
+    "comments": "dual band VHF UHF antenna that fits on the mount above"
+  },
+  "AnyTone Dual Band Transceiver VHF/UHF AT-5888UV Two Way and Amateur Radio": {
+    "images": {
+      "pic": "ham/at-5888uv.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B00B1F7IEE",
+        "price": "209"
+      }
+    },
+    "comments": "ham radio for mounting in my car"
+  },
+  "Programming Software and USB-A5R cable for the AnyTone AT-5888UV-II": {
+    "images": {
+      "pic": "ham/atp-5888uv_iii.jpg"
+    },
+    "buylinks": {
+      "rt Systems": {
+        "link": "https://www.rtsystemsinc.com/ATP-5888UV-III-Programming-Software-and-USB-cable-p/atp-5888uv-iii-usb.htm",
+        "price": "49"
+      }
+    },
+    "comments": "Kit Install Method: Include CD with Package <br><br> professional programming software for in car radio above."
+  }
+}

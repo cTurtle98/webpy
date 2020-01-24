@@ -1,0 +1,306 @@
+{"Yogurtland Gift card": {
+    "images": {
+      "pic": "wishlist/yogurtland.jpg"
+    },
+    "buylinks": {
+      "Yogurtland": {
+        "link": "https://www.yogurt-land.com/buygiftcards",
+        "price": "∞"
+      }
+    },
+    "want": "05",
+    "comments": "if my taste is out of your budget or you can't think of anything I like yogurtland"
+  },
+  "Apollo 11 (2019) Blu-Ray": {
+    "images": {
+      "pic": "wishlist/apollo11-2019-bluray.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B07NHRC3KH",
+        "price": "19.96"
+      }
+    },
+    "want": "06",
+    "comments": "its this documentary about the moon landing using recently discovered old footage of the moon landing from a documentary that was filmed in 1969 but then never finished and the footage was lost until this movie was made"
+  },
+  "The Martian": {
+    "images": {
+      "pic": "wishlist/themartian.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B017S3OP34",
+        "price": "9.30"
+      }
+    },
+    "want": "06",
+    "comments": "my favorite movie on blu-ray"
+  },"Nintendo Joy-Con (L/R) - Gray": {
+    "images": {
+      "pic": "wishlist/joycons-grey.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B01N6QKT7H",
+        "price": "66.99"
+      }
+    },
+    "want": "08",
+    "comments": "extra joycons for playing with friends on my switch"
+  },
+  "Adafruit PyBadge for MakeCode Arcade, CircuitPython or Arduino": {
+    "images": {
+      "pic": "wishlist/pybadge.jpg"
+    },
+    "buylinks": {
+      "Adafruit": {
+        "link": "https://www.adafruit.com/product/4200",
+        "price": "34.95"
+      }
+    },
+    "want": "04",
+    "comments": "little board with a screen about the size of a gameboy advance for wearing as a convention badge<br>its a pretty cool board that people write code for and I could play with but I dont really know how to write code for it so IDK how much I would really use it but it would still be cool to have"
+  },
+  "Adafruit PyGamer for MakeCode Arcade, CircuitPython or Arduino": {
+    "images": {
+      "pic": "wishlist/pygamer.jpg"
+    },
+    "buylinks": {
+      "Adafruit": {
+        "link": "https://www.adafruit.com/product/4242",
+        "price": "39.95"
+      }
+    },
+    "want": "04",
+    "comments": "this one is like the one above but like with a joystick instead of a dpad and kinda made more for games and less as a badge<br>still cool to have but idk how to make for it only how to use"
+  },
+  "Adafruit METRO M0 Express - designed for CircuitPython - ATSAMD21G18": {
+    "images": {
+      "pic": "wishlist/metro-express.jpg"
+    },
+    "buylinks": {
+      "Adafruit": {
+        "link": "https://www.adafruit.com/product/3505",
+        "price": "24.95"
+      }
+    },
+    "want": "04",
+    "comments": "arduino compatable built for CircuitPython"
+  },
+  "This Old Tony Meatball T-Shirt": {
+    "images": {
+      "pic": "wishlist/meatball-tee.jpg"
+    },
+    "buylinks": {
+      "teespring": {
+        "link": "https://teespring.com/meatball-t?tsmac=store&tsmic=thisoldtony&pid=2&cid=581&sid=front",
+        "price": "18"
+      }
+    },
+    "want": "09",
+    "comments": "Classic Tee<br>XL Size<br>Color Grey<br><br>really awesome machining youtuber that does awesome stuff and I want some of his merch to support him"
+  },
+  "THUMB SCREW | MEN'S HEAVY METAL GRAY T-SHIRT": {
+    "images": {
+      "pic": "wishlist/thumb-ts-hm.jpg"
+    },
+    "buylinks": {
+      "Pauls Hardware": {
+        "link": "https://paulshardware.net/all-products/thumb-screw-heavy-metal-mens-t-shirt",
+        "price": "19"
+      }
+    },
+    "want": "09",
+    "comments": "cool tee shirt from a youtuber I like<br><br>Size: XL"
+  },
+  "Words Are Hard! (tee shirt)": {
+    "images": {
+      "pic": "wishlist/words-are-hard-shirt.jpg"
+    },
+    "buylinks": {
+      "shopevanandkatelyn.com": {
+        "link": "https://shopevanandkatelyn.com/collections/frontpage/products/words-are-hard?variant=23404930891834",
+        "price": "25"
+      }
+    },
+    "want": "09",
+    "comments": "cool tee shirt <br><br> Color: Athletic Heather <br> Size: XL"
+  },
+  "ILTMS Logo T-Shirt (Grey)": {
+    "images": {
+      "pic": "wishlist/iltms-shirt.jpg"
+    },
+    "buylinks": {
+      "iliketomakestuff.com": {
+        "link": "https://iliketomakestuff.com/shop/product/iltms-logo-t-shirt/",
+        "price": "18"
+      }
+    },
+    "want": "09",
+    "comments": "Size: XL"
+  },
+  "Perspective (Grey)": {
+    "images": {
+      "pic": "wishlist/iltms-logo-shirt.jpg"
+    },
+    "buylinks": {
+      "iliketomakestuff.com": {
+        "link": "https://iliketomakestuff.com/shop/product/perspective-grey/",
+        "price": "19.99"
+      }
+    },
+    "want": "09",
+    "comments": "Size: XL"
+  },
+  "Engineer SS-02 Solder Sucker": {
+    "images": {
+      "pic": "wishlist/ss-02.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B002MJMXD4",
+        "price": "23.75"
+      },
+      "Adafruit": {
+        "link": "https://www.adafruit.com/product/1597",
+        "price": "17.50"
+      }
+    },
+    "want": "03",
+    "comments": "i would use this thing to take apart solder joints, I heat up the solder with my soldering iron then quickly put the silicone tip on the solder and press the button to tryo to suck the solder into it so I can take the component out of the board"
+  },
+  "HAKKO FR301-03/P Desoldering Tool": {
+    "images": {
+      "pic": "wishlist/hakko-solder-sucker.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B07BFVFMS9/",
+        "price": "261.05"
+      }
+    },
+    "want": "02",
+    "comments": "this thing is so cool. instead of a plunger like the thing above it uses a vaccume pump and it has a soldering iron built in to you just put the tip over a solder joint you want to remove and press the button and it takes the solder out for you just like that. would make it so much easier on some projects but also so expensive"
+  },
+  "Hakko Soldering Station, FX-951-66": {
+    "images": {
+      "pic": "wishlist/hakko-soldering-iron.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B0012B8NW8/",
+        "price": "242.79"
+      }
+    },
+    "want": "02",
+    "comments": "nicer soldering station than the one I have. the main difference is that it stays hot longer during continued use because of the heating element being closer to the tip"
+  },
+  "iFixit Pro Tech Toolkit - Electronics, Smartphone, Computer & Tablet Repair Kit": {
+    "images": {
+      "pic": "wishlist/ifixit-protech.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B01GF0KV6G",
+        "price": "64.99"
+    },
+      "ifixit.com": {
+        "link": "https://www.ifixit.com/Store/Tools/Pro-Tech-Toolkit/IF145-307",
+        "price": "59.99"
+      }
+    },
+    "want": "10",
+    "comments": "i want this thing so badly idk why I havent gotten it for myself already I have so many times im working on something and wish I had the tools in this but I still havent bought it for myself<br>screwdriver and toolkit for repair of electronics and other things. has a nice roll sleeve and stuff to fit in a backpack"
+  },
+  "Samsung SSD 860 EVO 1TB 2.5 Inch SATA III Internal SSD (MZ-76E1T0B/AM)": {
+    "images": {
+      "pic": "wishlist/samsung-ssd-1tb.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B078DPCY3T",
+        "price": "109"
+      }
+    },
+    "want": "12",
+    "comments": "SSD for my school computer <br>(the 120gb ssd in it right now is completely full)"
+  },
+  "Goal Zero SHERPA 100 PD QI": {
+    "images": {
+      "pic": "wishlist/powerbank.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B07VFY3DWX/",
+        "price": "135.95"
+      }
+    },
+    "want": "11",
+    "comments": "awesome power bank with usb c power delivery and a wireless charging pad on the top"
+  },
+  "Elgato Cam Link 4K": {
+    "images": {
+      "pic": "wishlist/camlink.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B07K3FN5MR",
+        "price": "130"
+      },
+      "BestBuy": {
+        "link": "https://www.bestbuy.com/site/elgato-cam-link-4k-black/6316580.p?skuId=6316580",
+        "price": "130"
+      }
+    },
+    "want": "07",
+    "comments": "hdmi capture card to take input from the camcorder I also want"
+  },
+  "Canon VIXIA HF R800 Camcorder": {
+    "images": {
+      "pic": "wishlist/camcorder.jpg"
+    },
+    "buylinks": {
+      "BH Photo Video (refurbished)": {
+        "link": "https://www.bhphotovideo.com/c/product/1387604-REG/canon_1960c022aa_vixia_hf_r800_camcorder.html",
+        "price": "130"
+      },
+      "Amazon (new)": {
+        "link": "https://www.amazon.com/dp/B01N7OAH3I",
+        "price": "180"
+      },
+      "BH Photo Video (new)": {
+        "link": "https://www.bhphotovideo.com/c/product/1308395-REG/canon_1960c002_vixia_hf_r800_camcorder.html",
+        "price": "180"
+      }
+    },
+    "want": "07",
+    "comments": "camcorder to use for live streaming (video input for capture card)"
+  },
+  "CyberPower RMCARD205 UPS & ATS PDU Remote Management Card": {
+    "images": {
+      "pic": "wishlist/RMCARD205.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B01615H29O/",
+        "price": "160"
+      }
+    },
+    "want": "10",
+    "comments": "management card for my UPS so it can automatically send me a message then shutdown my computers connected to it when the power goes out. right now I have to manually shut down everything when the power goes out so if im not home my ups basically doesent do anything it just delays the loss of power"
+  },
+  "": {
+    "images": {
+      "pic": ""
+    },
+    "buylinks": {
+      "": {
+        "link": "",
+        "price": ""
+      }
+    },
+    "want": "00",
+    "comments": ""
+  }
+}

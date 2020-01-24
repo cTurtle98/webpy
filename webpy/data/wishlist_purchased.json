@@ -1,0 +1,265 @@
+{
+  "Anker PowerDrive Speed 2": {
+    "images": {
+      "pic": "wishlist/ankercarcharger.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B01K9MQ8WW",
+        "price": "25.99"
+      }
+    },
+    "want": "10/10",
+    "comments": "<b> ALTERNATE PURCHASED 6/25/19</b><br><a href=\"https://www.bestbuy.com/site/samsung-adaptive-fast-charging-vehicle-charger-black/5580932.p?skuId=5580932\">Samsung Fast Charger at BestBuy</a><br><br> my current car charger has too low wattage so it doesent charge my phone<br> this one has enough"
+  },
+},
+
+"Super Mario Maker 2 - Nintendo Switch": {
+    "images": {
+      "pic": "wishlist/super-mario-maker-2.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B07NQDG7RQ",
+        "price": "59.99"
+      }
+    },
+    "want": "9/10",
+    "comments": "its a game like super mario world but you make the levels yourself and play levels other people made and it could be cool to have because I really suck at super mario so maybe it would be easier"
+  },
+
+  "The Solarbotics GraviTrack Solar Marble Machine Kit": {
+    "images": {
+      "pic": "wishlist/gravitrack-solar.png"
+    },
+    "buylinks": {
+      "Maker Shed": {
+        "link": "https://www.makershed.com/products/the-solarbotics-gravitrack-solar-marble-machine-kit",
+        "price": "40"
+      },
+      "solarbotics": {
+        "link": "https://solarbotics.com/product/60415/",
+        "price": "38"
+      }
+    },
+    "want": "10/10",
+    "comments": "<b>RECIEVED<br>Thanks Yaneth</b><br>really cool laser cut gravity fed marble run desk toy thing<br> I saw it at makefaire"
+  }
+  "PLUNDER BUG": {
+    "images": {
+      "pic": "wishlist/plunderbug.jpg"
+    },
+    "buylinks": {
+      "Hak5": {
+        "link": "https://shop.hak5.org/collections/network-implants/products/bug",
+        "price": "49.99"
+      }
+    },
+    "want": "10/10",
+    "comments": "its like a usb ethernet adapter and a 3 port switch in one, I can have my laptop on ethernet through the usb c port and then plug a raspberry pi to play with in the other ethernet port<br>so cool and so useful I really want it, I wish it wasn't so expensive but its made as network pen testing gear so its nto cheep."
+  },
+
+  "THUMB SCREW GAMING DESK MAT | 90 CM X 25 CM X 2 MM": {
+    "images": {
+      "pic": "wishlist/dm-thumb.jpg"
+    },
+    "buylinks": {
+      "pauls Hardware": {
+        "link": "https://paulshardware.net/all-products/thumb-screw-gaming-desk-mat-90-cm-x-25-cm-x-2-mm",
+        "price": "22"
+      }
+    },
+    "want": "6/10",
+    "comments": "desk mat mousepad thing<br>my mousepad is falling apart and I thought it would be cool to bandwagon on the new mousemat trend"
+  },
+
+    "Skyreach 4 MINI": {
+    "images": {
+      "pic": "wishlist/s4mini-black.png"
+    },
+    "buylinks": {
+      "SFF Lab": {
+        "link": "https://www.sfflab.com/collections/enclosures/products/nfc_s4m?variant=21625046794353",
+        "price": "199"
+      }
+    },
+    "want": "8/10",
+    "comments": "<b>Purchased on June 20th<br>$244 with shipping<br>ships July 19th and transit time 1 to 3 weeks</b><br><br> Really small form factor pc case I can put in my backpack so I never have to deal with a laptop again"
+  },
+  "Polarized C8 Connector": {
+    "images": {
+      "pic": "wishlist/c8-connector.jpg"
+    },
+    "buylinks": {
+      "NFC-Systems": {
+        "link": "https://nfc-systems.com/shop-all/fs5yyuelcpkccl596azgxv15m6fv9r",
+        "price": "2"
+      }
+    },
+    "want": "0/10",
+    "comments": "<b>I don't need this the HDPLEX 200AC comes with it</b><br><br>power cable connector for going in the case and the hdplex 200ac-dc <br>should purchase with the power button to shave on shipping"
+  },
+  "Machined ON/OFF Switch": {
+    "images": {
+      "pic": "wishlist/s4m-switch.jpg"
+    },
+    "buylinks": {
+      "NFC-Systems": {
+        "link": "https://nfc-systems.com/shop-all/switch",
+        "price": "29"
+      }
+    },
+    "want": "8/10",
+    "comments": "power switch for pc case above<br><br>Length: 170mm"
+  },
+  "Noctua NH-L9a AM4, 37mm Premium Low-profile CPU Cooler for AMD AM4 ": {
+    "images": {
+      "pic": "wishlist/nh-l9a-am4.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B075SG1T3X",
+        "price": "39.90"
+      },
+      "newegg": {
+        "link": "https://www.newegg.com/p/13C-0005-00145",
+        "price": "39.90"
+      }
+    },
+    "want": "8/10",
+    "comments": "cpu cooler short enough to fit inside the small form factor case"
+  },
+  "HDPLEX 200W AC-DC": {
+    "images": {
+      "pic": "wishlist/hdplex-200-acdc.jpg"
+    },
+    "buylinks": {
+      "hdplex": {
+        "link": "https://www.hdplex.com/hdplex-internal-200w-ac-dc-adapter-with-active-pfc-and-19vdc-output.html",
+        "price": "60"
+      }
+    },
+    "want": "8/10",
+    "comments": "power brick for the backpack pc case to power the computer inside and small enough to go inside the case<br> goes from 120v ac to 19v dc (19v is the standard for laptop chargers) to power the small form factor atx power supply"
+  },
+  "HDPLEX 200W DC-ATX": {
+    "images": {
+      "pic": "wishlist/hdplex-200w-dcatx.jpg"
+    },
+    "buylinks": {
+      "hdplex": {
+        "link": "https://www.hdplex.com/hdplex-200w-dc-atx-power-supply-16v-24v-wide-range-voltage-input.html",
+        "price": "62.50"
+      }
+    },
+    "want": "8/10",
+    "comments": "this is the second part that goes into the motherboard and converts the 19v to the voltage the computer needs<br> "
+  },
+  "GIGABYTE GeForce GTX 1650 MINI ITX OC 4G Graphics Card GV-N1650IXOC-4GD": {
+    "images": {
+      "pic": "wishlist/gtx-1650.jpg"
+    },
+    "buylinks": {
+      "Newegg": {
+        "link": "https://www.newegg.com/p/N82E16814932151",
+        "price": "149.99"
+      }
+    },
+    "want": "8/10",
+    "comments": "graphics card that has enough power for videogames but draws low enough power to fit in the portable system"
+  },
+    "G.SKILL TridentZ Series 32GB (4 x 8GB) DDR4 3200 Model F4-3200C16Q-32GTZSK": {
+    "images": {
+      "pic": "wishlist/gskill-server-ram.jpg"
+    },
+    "buylinks": {
+      "newegg": {
+        "link": "https://www.newegg.com/g-skill-32gb-288-pin-ddr4-sdram/p/N82E16820232321",
+        "price": "179.99"
+      }
+    },
+    "want": "10/10",
+    "comments": "<b>Purchased July 20th<br>$190.74 with shipping</b> <br><br>matching ram to upgrade my server from 32gb of ram to 64gb of ram"
+  },
+  "Aquantia AQtion 10G Pro NIC (AQN-107)": {
+    "images": {
+      "pic": "wishlist/10g-nic.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/gp/product/B07B3G4S4J",
+        "price": "79.98"
+      }
+    },
+    "want": "0/10",
+    "comments": "netword card to let me connect to my server faster"
+  },
+"Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz C16 - Black ": {
+    "images": {
+      "pic": "wishlist/vengeance-lpx.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B0143UM4TC",
+        "price": "85"
+      }
+    },
+    "want": "0/10",
+    "comments":"to upgrade the ram in my desktop to 32 gigs"
+  },
+  "m.2 PCIe (NVMe) to usb c adapter": {
+    "images": {
+      "pic": "wishlist/"
+    },
+    "buylinks": {
+      "": {
+        "link": "",
+        "price": ""
+      }
+    },
+    "want": "10/10",
+    "comments": "I havent found one that I think is cheep enough but I want one<br> I have an 128gb nvme m.2 ssd I want to use as a flash drive<br>the problem is that the drive only cost me $15 but all the enclosures are $30+"
+  },
+  "Rockit 88 Delid & Relid for LGA 1150 & 1151": {
+    "images": {
+      "pic": "wishlist/delid-relid-kit.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B06WVYL61Q",
+        "price": "34.95"
+      }
+    },
+    "want": "01",
+    "comments": "thing to take apart the cpu in my computer and replace the thermal paste in it"
+  },
+  "iFixit Manta Driver Kit - 114 Piece Bit Kit": {
+    "images": {
+      "pic": "wishlist/ifixit-manta.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com//dp/B07BMM74FD/",
+        "price": "64.99"
+      },
+      "ifixit.com": {
+        "link": "https://www.ifixit.com/Store/Tools/Manta-Driver-Kit--112-Bit-Driver-Kit/IF145-392",
+        "price": "64.99"
+      }
+    },
+    "want": "08",
+    "comments": "screwdriver kit that has a ton of bits and is really awesome and I stared at for almost an hour at makefaire"
+  },
+  "Galaxy S10e Grip™ Case": {
+    "images": {
+      "pic": "wishlist/s10e-grip.png"
+    },
+    "buylinks": {
+      "dbrand": {
+        "link": "https://dbrand.com/shop/grip/galaxy-s10e-cases",
+        "price": "29.95"
+      }
+    },
+    "want": "10",
+    "comments": "really nice case for my phone"
+  }

@@ -1,0 +1,28 @@
+{
+  "Micro-Trak RTG FA, GPS, Antenna Combo": {
+    "images": {
+      "pic": "ham/micro-trak_rtg.jpg"
+    },
+    "buylinks": {
+      "BYONICS": {
+        "link": "https://www.byonics.com/mt-rtg",
+        "price": "220"
+      }
+    },
+    "want": "8/10",
+    "comments": "APRS Car Tracker<br><br>-- Byonics GPS reciever<br>-- v3 magnet mount SMA antenna<br><br>Call Sign: KM6NHG<br>SSID: -9<br>PowerPole Model"
+  },
+  "Programming Software and USB-K4Y cable for the  Baofeng/Pofung BF-F8": {
+    "images": {
+      "pic": "ham/bao-f8.jpg"
+    },
+    "buylinks": {
+      "rt Systems": {
+        "link": "https://www.rtsystemsinc.com/BAO-F8-Programming-Software-and-USB-Cable-p/bao-f8-usb.htm",
+        "price": "49"
+      }
+    },
+    "want": "8/10",
+    "comments": "Kit Install Method: Include CD with Package <br><br> professional software and programming cable for my BF-F8HP"
+  }
+}
