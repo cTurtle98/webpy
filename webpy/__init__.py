@@ -15,23 +15,9 @@ trusted_proxies = {'127.0.0.1'}
 def index() :
 	return flask.render_template('home.jinja2',)
 
+# import my pages
 from webpy import redirect
-
-@app.route('/ham/')
-def ham() :
-
-  my_equipment = {}
-  f = open("/array/www/webpy/webpy/data/ham/my_equipment.json", encoding='utf-8')
-  my_equipment = json.load(f)
-  f.close
-  
-  equipment_wishlist = {}
-  f = open("/array/www/webpy/webpy/data/ham/equipment_wishlist.json", encoding='utf-8')
-  equipment_wishlist = json.load(f)
-  f.close
-
-  return flask.render_template('ham.jinja2', my_equipment=my_equipment, equipment_wishlist=equipment_wishlist)
-
+from webpy import ham
 from webpy import wishlist
 
 @app.route('/21bday/')
