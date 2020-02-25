@@ -239,23 +239,6 @@
     "want": "11",
     "comments": "awesome power bank with usb c power delivery and a wireless charging pad on the top"
   },
-  "Elgato Cam Link 4K": {
-    "images": {
-      "pic": "wishlist/camlink.jpg"
-    },
-    "buylinks": {
-      "Amazon": {
-        "link": "https://www.amazon.com/dp/B07K3FN5MR",
-        "price": "130"
-      },
-      "BestBuy": {
-        "link": "https://www.bestbuy.com/site/elgato-cam-link-4k-black/6316580.p?skuId=6316580",
-        "price": "130"
-      }
-    },
-    "want": "07",
-    "comments": "hdmi capture card to take input from the camcorder I also want"
-  },
   "Canon VIXIA HF R800 Camcorder": {
     "images": {
       "pic": "wishlist/camcorder.jpg"
