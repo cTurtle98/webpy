@@ -5,9 +5,6 @@ webapp to host www.cturtle98.com
 import os
 import json
 import flask
-from flask import request
-from datetime import datetime
-import socket
 
 
 app = flask.Flask(__name__, template_folder='templates/', static_folder = 'static/')
@@ -18,39 +15,7 @@ trusted_proxies = {'127.0.0.1'}
 def index() :
 	return flask.render_template('home.jinja2',)
 
-@app.route('/redirect/', methods=['GET'])
-def redirectpage():
-  url = flask.request.args.get('URL')
-  linked_from = flask.request.args.get('linkedfrom')
-  current_time = str(datetime.now())
-  
-  #fix for request.remote_addr not working
-  # no longer needed
-#  route = request.access_route + [request.remote_addr]
-#  remote_addr = next((addr for addr in reversed(route) 
-#                    if addr not in trusted_proxies), request.remote_addr)
-
-  f=open("/array/www/webpy/webpy/data/redirect.csv", "a+", encoding='utf-8')
-  f.write(current_time)
-  f.write(",")
-  f.write(request.remote_addr )
-  f.write(",")
-  
-  try:
-    f.write(socket.gethostbyaddr(request.remote_addr))
-    f.write(",")
-  except:
-    f.write("no host name")
-    f.write(",")
-  
-  f.write(url)
-  f.write(",")
-  f.write(linked_from)
-  f.write("\n")
-  f.close()
-
-  return flask.redirect(url)
-
+from webpy import redirect
 
 @app.route('/ham/')
 def ham() :
