@@ -139,5 +139,5 @@ from webpy import app
 import flask
 
 @app.route('/ace_outs/')
-def outs():
-    
+def ace_outs_route():
+    return flask.render_template('ace_outs.jinja2', prod.outs_dict=outs)

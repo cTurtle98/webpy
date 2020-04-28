@@ -1,0 +1,29 @@
+{% extends "base.jinja2" %}
+{% block page_title %}Ace outs{% endblock %}
+{% block head %}
+        {{ super() }}
+{% endblock %}
+{% block title %}Ace outs{% endblock %}
+{% block subtitle %}outs list for ace hardware westside{% endblock %}
+{% block content %}
+        {{ super() }}
+
+<div id='outs_list'>
+
+  {% for date in outs.keys() %}
+    <div id="{{ date }}"> 
+      {{ date }}
+      {% for isle in outs[date].keys() %}
+      <div id="{{ date }}_{{ isle }}">
+        <b> {{ isle }} </b>
+        <div>
+          {% for sku in outs[date][isle] %}
+          {{ sku }} <br>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+
+{% endblock %}
