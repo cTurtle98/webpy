@@ -147,12 +147,56 @@ def ace_outs_route():
 @app.route('/ace_outs/scan/')
 def ace_outs_scan():
 
+  # logic to process form submits goes here
+  
   return """
-  ace outs scan page
-  <form>
-    <select id="isle">
+  <h3> ace outs scan page </h3>
+  <form action="/ace_outs/scan/">
+    <label for="isle"> Isle: </label>
+    <select id="isle" name="isle">
       <option value="01L">01L</option>
       <option value="01R">01R</option>
-    </select>
-  </form"
+      <option value="02L">02L</option>
+      <option value="02R">02R</option>
+      <option value="03L">03L</option>
+      <option value="03R">03R</option>
+      <option value="04L">04L</option>
+      <option value="04R">04R</option>
+      <option value="05L">05L</option>
+      <option value="05R">05R</option>
+      <option value="06L">06L</option>
+      <option value="06R">06R</option>
+      <option value="07L">07L</option>
+      <option value="07R">07R</option>
+      <option value="08L">08L</option>
+      <option value="08R">08R</option>
+      <option value="09L">09L</option>
+      <option value="09R">09R</option>
+      <option value="10L">10L</option>
+      <option value="10R">10R</option>
+      <option value="11L">11L</option>
+      <option value="11R">11R</option>
+      <option value="12L">12L</option>
+      <option value="12R">12R</option>
+      <option value="13L">13L</option>
+      <option value="13R">13R</option>
+      <option value="14L">14L</option>
+      <option value="14R">14R</option>
+      <option value="15L">15L</option>
+      <option value="15R">15R</option>
+      <option value="16L">16L</option>
+      <option value="16R">16R</option>
+      <option value="17L">17L</option>
+      <option value="17R">17R</option>
+      <option value="18L">18L</option>
+      <option value="18R">18R</option>
+      <option value="19L">19L</option>
+      <option value="19R">19R</option>
+      <option value="WALL01">WALL01</option>
+      <option value="REGISTER">REGISTER</option>
+    </select><br>
+    <label for="UPCs"> UPCs: </isle><br>
+    <textarea id="UPCs" name="UPCs" rows="20" cols="13"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
   """
