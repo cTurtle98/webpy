@@ -48,7 +48,7 @@ class Products:
     except:
       self.outs_dict = {
         'date' : {
-          'isle': ['sku', 'sku']
+          'isle': ['sku1', 'sku2']
         }
       }
     
@@ -138,6 +138,21 @@ prod = Products()
 from webpy import app
 import flask
 
+outs = prod.outs_dict
+
 @app.route('/ace_outs/')
 def ace_outs_route():
-    return flask.render_template('ace_outs.jinja2', prod.outs_dict=outs)
+  return flask.render_template('ace_outs.jinja2', outs=outs)
+
+@app.route('/ace_outs/scan/')
+def ace_outs_scan():
+
+  return """
+  ace outs scan page
+  <form>
+    <select id="isle">
+      <option value="01L">01L</option>
+      <option value="01R">01R</option>
+    </select>
+  </form"
+  """

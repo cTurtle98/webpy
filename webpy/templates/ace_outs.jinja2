@@ -4,7 +4,7 @@
         {{ super() }}
 {% endblock %}
 {% block title %}Ace outs{% endblock %}
-{% block subtitle %}outs list for ace hardware westside{% endblock %}
+{% block subtitle %}Ciaran's outs list<br>Ace Hardware Westside Santa Cruz{% endblock %}
 {% block content %}
         {{ super() }}
 
@@ -12,15 +12,17 @@
 
   {% for date in outs.keys() %}
     <div id="{{ date }}"> 
-      {{ date }}
+      <h4> {{ date }} </h4>
       {% for isle in outs[date].keys() %}
       <div id="{{ date }}_{{ isle }}">
         <b> {{ isle }} </b>
-        <div>
-          {% for sku in outs[date][isle] %}
-          {{ sku }} <br>
+        {% for sku in outs[date][isle] %}
+        <div id="{{ date }}_{{ isle }}_{{ sku }}">
+          {{ sku }}
         </div>
+        {% endfor %}
       </div>
+      {% endfor %}
     </div>
   {% endfor %}
 
