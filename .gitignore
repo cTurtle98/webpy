@@ -4,4 +4,4 @@
 /__pycache__/
 
 # ignore compiled py files
-.pyc
+*.pyc
