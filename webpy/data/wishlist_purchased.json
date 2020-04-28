@@ -279,4 +279,17 @@
     },
     "want": "07",
     "comments": "hdmi capture card to take input from the camcorder I also want"
+  },
+  "Samsung SSD 860 EVO 1TB 2.5 Inch SATA III Internal SSD (MZ-76E1T0B/AM)": {
+    "images": {
+      "pic": "wishlist/samsung-ssd-1tb.jpg"
+    },
+    "buylinks": {
+      "Amazon": {
+        "link": "https://www.amazon.com/dp/B078DPCY3T",
+        "price": "109"
+      }
+    },
+    "want": "12",
+    "comments": "SSD for my school computer <br>(the 120gb ssd in it right now is completely full)"
   }
