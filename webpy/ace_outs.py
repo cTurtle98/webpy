@@ -146,8 +146,15 @@ def ace_outs_route():
 
 @app.route('/ace_outs/scan/')
 def ace_outs_scan():
-
-  # logic to process form submits goes here
+  
+  '''
+  isle = flask.request.args.get('isle')
+  upcs = flask.request.args.get('UPCs')
+  
+  if (upcs != None):  
+    for upc in upcs.splitlines():
+      prod.set_out(upc, isle)
+  '''
   
   return """
   <h3> ace outs scan page </h3>
@@ -193,7 +200,7 @@ def ace_outs_scan():
       <option value="19L">19L</option>
       <option value="19R">19R</option>
       <option value="WALL01">WALL01</option>
-      <option value="REGISTER">REGISTER</option>
+      <option value="REG">REG</option>
     </select><br>
     <label for="UPCs"> UPCs: </isle><br>
     <textarea id="UPCs" name="UPCs" rows="20" cols="13"></textarea><br>
