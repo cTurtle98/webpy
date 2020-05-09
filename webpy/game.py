@@ -10,5 +10,5 @@ import flask
 from webpy import app
 
 @app.route('/game/ftb-academy/')
-def ftb-academy():
+def game_ftbacademy():
   return flask.render_template('game_ftb-academy.jinja2')

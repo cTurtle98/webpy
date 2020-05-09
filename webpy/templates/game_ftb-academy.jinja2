@@ -3,12 +3,88 @@
 {% block head %}
         {{ super() }}
 {% endblock %}
-{% block title %}FTB-Academy Game Server{% endblock %}
-{% block subtitle %}Minecraft Feed-The-Beast modpack server{% endblock %}
+{% block title %}Game - FTB Academy Modpack Server{% endblock %}
+{% block subtitle %}Minecraft Feed-The-Beast Modpack{% endblock %}
 {% block content %}
         {{ super() }}
 
-        <a href="https://ftb.gamepedia.com/FTB_Academy">FTB Wiki Modpack Details</a><br>
-        <br>
+        <a class="subtitle">Details</a><br>
+        <div id="details">
+          <a href="https://ftb.gamepedia.com/FTB_Academy" target="_blank">FTB Wiki Modpack Details</a><br>
+          <br>
+          <a>a modpack for learning how to play modded minecraft. <br> includes quest mod to teach you how to play</a><br>
+          <br>
+          <a>IP: cturtle98.com </a><br>
+          <br>
+          <a class='subtitle'>Dynmap</a>
+          <a href="https://www.cturtle98.com/game/ftb-academy/dynmap/" target="_blank">open in new tab</a>
+          <br>
+          <iframe src="https://www.cturtle98.com/game/ftb-academy/dynmap/" width="100%" height="600pt" ></iframe>
+        </div>
+        <br><br>
+        <a class="subtitle">Installation Instructions</a>
+        <div id="install">
+        if you already have MultiMC installed skip to <a href="#step5">step5</a>
+          <ol>
+            <li>
+              <b>Download MultiMC</b><br>
+              Download MultiMC archive for your OS<br>
+              (on linux install with your package manager and skip step 2)<br>
+              <iframe src="https://multimc.org/#Download" width="90%" height="450pt"></iframe><br>
+              <a href="https://multimc.org/#Download" target="_blank"> open in new tab</a>
+            </li>
+            <br>
+            <li>
+              <b>Install MultiMC</b><br>
+              Extract "MultiMC" folder into your applications folder from the zip<br>
+              (Windows: C:\Program Files\)<br>
+              (MacOS: /Applications/)
+            </li>
+            <br>
+            <li>
+              <b> Download and Install Java</b><br>
+              Download java and run the installer<br>
+              <iframe src="https://www.java.com/en/download/" width="90%" height="450pt"></iframe><br>
+              <a href="https://www.java.com/en/download/" target="_blank"> open in new tab </a>
+            </li>
+            <br><br>
+            <li>
+              <b>Setup MultiMC</b><br>
+              <ol>
+                <li>open the MultiMC app and a java setup screen will pop up<br> </li>
+                <li> Select the java enviroment you just installed </li>
+                <li> set the java "Maximum Memory Allocation":<br>
+                  "8192" if you have over 10gb of ram in your system<br>
+                  "6144" if you have 8gb of ram<br>
+                  "4096" if you have 4gb of ram<br>
+                  (4gb ram minimum to run modpack)
+                </li>
+              </ol>
+            </li>
+            <li id="step5">
+              <b> Download the modpack </b><br>
+              <ol>
+                <li>Click on add instance<br> <img src="/static/game/multimc_addinstance.png"></li>
+                <li>Click "FTB Legacy" then find "FTB Academy" then click "Ok"<br><img src="/static/game/multimc_ftb-academy.png"></li>
+              </ol>
+            </li>
+            <li>
+              <b> Launch Modpack and Add your mojang account</b><br>
+              you can double click the ftb-academy icon or click launch on the right panel.<br>
+              the first time you launch it will ask you to setup your mojang account
+            </li>
+            <li>
+              <b>Add and join the server</b>
+              Click on "Multiplayer" then click the "Add Server" button<br>
+              Server Details:<br>
+              <img src="/static/game/multimc_ftb-academy-server.png">
+            </li>
+            <li>
+              <b>Request Whitelist</b>
+              Join my <a href="https://discord.gg/YfeX6xn">Discord</a><br>
+              mention @cturtle98#2198 in #games asking to get added to the wishlist
+            </li>
+          </ol>
+        </div>
         
 {% endblock %}
