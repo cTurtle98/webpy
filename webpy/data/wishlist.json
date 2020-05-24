@@ -260,6 +260,32 @@
     "want": "10",
     "comments": "management card for my UPS so it can automatically send me a message then shutdown my computers connected to it when the power goes out. right now I have to manually shut down everything when the power goes out so if im not home my ups basically doesent do anything it just delays the loss of power"
   },
+  "Best Buy Exclusive Joy-Con (L/R) Wireless Controllers for Nintendo Switch - Neon Green": {
+    "images": {
+      "pic": ""
+    },
+    "buylinks": {
+      "BestBuy": {
+        "link": "https://www.bestbuy.com/site/best-buy-exclusive-joy-con-l-r-wireless-controllers-for-nintendo-switch-neon-green/6352708.p?skuId=6352708",
+        "price": "79.99"
+      }
+    },
+    "want": "09",
+    "comments": "special edition green joycons"
+  },
+  "": {
+    "images": {
+      "pic": ""
+    },
+    "buylinks": {
+      "": {
+        "link": "",
+        "price": ""
+      }
+    },
+    "want": "00",
+    "comments": ""
+  },
   "": {
     "images": {
       "pic": ""
