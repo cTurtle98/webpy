@@ -247,19 +247,6 @@
     "want": "07",
     "comments": "camcorder to use for live streaming (video input for capture card)"
   },
-  "CyberPower RMCARD205 UPS & ATS PDU Remote Management Card": {
-    "images": {
-      "pic": "wishlist/RMCARD205.jpg"
-    },
-    "buylinks": {
-      "Amazon": {
-        "link": "https://www.amazon.com/dp/B01615H29O/",
-        "price": "160"
-      }
-    },
-    "want": "10",
-    "comments": "management card for my UPS so it can automatically send me a message then shutdown my computers connected to it when the power goes out. right now I have to manually shut down everything when the power goes out so if im not home my ups basically doesent do anything it just delays the loss of power"
-  },
   "Best Buy Exclusive Joy-Con (L/R) Wireless Controllers for Nintendo Switch - Neon Green": {
     "images": {
       "pic": ""
