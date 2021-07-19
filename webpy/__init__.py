@@ -23,7 +23,7 @@ from webpy import ham
 from webpy import wishlist
 from webpy import bwfs
 from . import ace_outs
-from . import login
+#from . import login
 from . import game
 
 @app.route('/21bday/')
