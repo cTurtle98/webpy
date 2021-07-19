@@ -15,7 +15,7 @@ import json
 def wishlist() :
 
   wishlist = {}
-  f = open("/array/www/webpy/webpy/data/wishlist.json", encoding='utf-8')
+  f = open("/var/www/webpy/webpy/data/wishlist.json", encoding='utf-8')
   wishlist = json.load(f)
   f.close
   
