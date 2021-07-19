@@ -18,12 +18,12 @@ import json
 def ham() :
 
   my_equipment = {}
-  f = open("/array/www/webpy/webpy/data/ham/my_equipment.json", encoding='utf-8')
+  f = open("/var/www/webpy/webpy/data/ham/my_equipment.json", encoding='utf-8')
   my_equipment = json.load(f)
   f.close
   
   equipment_wishlist = {}
-  f = open("/array/www/webpy/webpy/data/ham/equipment_wishlist.json", encoding='utf-8')
+  f = open("/var/www/webpy/webpy/data/ham/equipment_wishlist.json", encoding='utf-8')
   equipment_wishlist = json.load(f)
   f.close
 
