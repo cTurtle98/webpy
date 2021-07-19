@@ -170,32 +170,6 @@
     "want": "03",
     "comments": "i would use this thing to take apart solder joints, I heat up the solder with my soldering iron then quickly put the silicone tip on the solder and press the button to tryo to suck the solder into it so I can take the component out of the board"
   },
-  "HAKKO FR301-03/P Desoldering Tool": {
-    "images": {
-      "pic": "wishlist/hakko-solder-sucker.jpg"
-    },
-    "buylinks": {
-      "Amazon": {
-        "link": "https://www.amazon.com/dp/B07BFVFMS9/",
-        "price": "261.05"
-      }
-    },
-    "want": "02",
-    "comments": "this thing is so cool. instead of a plunger like the thing above it uses a vaccume pump and it has a soldering iron built in to you just put the tip over a solder joint you want to remove and press the button and it takes the solder out for you just like that. would make it so much easier on some projects but also so expensive"
-  },
-  "Hakko Soldering Station, FX-951-66": {
-    "images": {
-      "pic": "wishlist/hakko-soldering-iron.jpg"
-    },
-    "buylinks": {
-      "Amazon": {
-        "link": "https://www.amazon.com/dp/B0012B8NW8/",
-        "price": "242.79"
-      }
-    },
-    "want": "02",
-    "comments": "nicer soldering station than the one I have. the main difference is that it stays hot longer during continued use because of the heating element being closer to the tip"
-  },
   "iFixit Pro Tech Toolkit - Electronics, Smartphone, Computer & Tablet Repair Kit": {
     "images": {
       "pic": "wishlist/ifixit-protech.jpg"
